@@ -8,15 +8,15 @@ hand written digit image with 28*28 pixel. I use 42000 examples for training dat
 
 Machine Learning Model:
 Neural Network model by using TensorFlow library. Overview of the model structure is below. You can check the code for detail. 
-____________________________
- Layer (type)               
-============================
- dense (Dense)                                                                                
- batch_normalization (BatchNormalization)                                 
- dropout (Dropout)                        
- dense_1 (Dense)                                               
- batch_normalization_1 (BatchNormalization)                                                 
- dropout_1 (Dropout)                      
- dense_2 (Dense)                   
+
+Layer (type)               
+---------------
+dense (Dense)                                                                                
+batch_normalization (BatchNormalization)                                 
+dropout (Dropout)                        
+dense_1 (Dense)                                               
+batch_normalization_1 (BatchNormalization)                                                  
+dropout_1 (Dropout)                      
+dense_2 (Dense)                   
 
 Test Result: 99% accuracy
