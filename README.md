@@ -7,30 +7,16 @@ Dataset:
 hand written digit image with 28*28 pixel. I use 42000 examples for training data, 28000 examples for testing data.
 
 Machine Learning Model:
-Neural Network model by using TensorFlow library. You can check the model structure below. 
-_________________________________________________________________
- Layer (type)                Output Shape              Param #   
-=================================================================
- dense (Dense)               (None, 256)               200960    
-                                                                 
- batch_normalization (BatchN  (None, 256)              1024      
- ormalization)                                                   
-                                                                 
- dropout (Dropout)           (None, 256)               0         
-                                                                 
- dense_1 (Dense)             (None, 64)                16448     
-                                                                 
- batch_normalization_1 (Batc  (None, 64)               256       
- hNormalization)                                                 
-                                                                 
- dropout_1 (Dropout)         (None, 64)                0         
-                                                                 
- dense_2 (Dense)             (None, 10)                650       
-                                                                 
-=================================================================
-Total params: 219,338
-Trainable params: 218,698
-Non-trainable params: 640
-_________________________________________________________________
+Neural Network model by using TensorFlow library. Overview of the model structure is below. You can check the code for detail. 
+____________________________
+ Layer (type)               
+============================
+ dense (Dense)                                                                                
+ batch_normalization (BatchNormalization)                                 
+ dropout (Dropout)                        
+ dense_1 (Dense)                                               
+ batch_normalization_1 (BatchNormalization)                                                 
+ dropout_1 (Dropout)                      
+ dense_2 (Dense)                   
 
 Test Result: 99% accuracy
